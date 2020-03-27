@@ -1,0 +1,17 @@
+name: HealCMD
+version: 1.0
+api: 3.0.0
+author:
+- NxtGamerHD
+- RageCraftPlugins
+main: Heal\main
+
+commands:
+   heal:
+     description: "Heal your Hearts!"
+     permission: heal.use
+     
+permissions:
+   heal.use:
+     default: op
+     description: "Allow to use /heal"
